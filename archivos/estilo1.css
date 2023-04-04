@@ -150,6 +150,9 @@ footer
 	width: 100%;
 	height: 15em;
 	} 
+footer a {
+	color: black;
+}
 
 .conocenos-main
 {
