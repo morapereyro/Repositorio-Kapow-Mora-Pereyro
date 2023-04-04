@@ -2,7 +2,7 @@ header
 {
 	width: 100%;
 	height: 14.5em;
-	background-color: whitesmoke;
+	background-color: #f4f4f4;
 	text-align: center;
 	top: 0;
 	left: 0;
@@ -108,7 +108,7 @@ main
 
 .arriba
 {
-	height: 50%;
+	height: 15em;
 	width: 100%;
 }
 
@@ -130,6 +130,11 @@ main
 	margin: 10px;
 
 }
+.flex-item a,p {
+	display: inline;
+	color: black;
+	background-color: white;
+}
 
 
 h1 
@@ -141,9 +146,9 @@ h1
 
 footer
 {
-	background-color: white;
+	background-color: #f4f4f4;
 	width: 100%;
-	height: 25%;
+	height: 15em;
 	} 
 
 .conocenos-main
@@ -188,7 +193,6 @@ footer
 	
 }
 
-}
 ul,ol {
 	list-style: none;
 }
@@ -246,5 +250,19 @@ ul,ol {
 	top: 0;
 }
  
-
+.flex-container {
+	display: block;
+}
+.flex-item {
+	background-color: blue;
+	height: 15em;
+	width: 90%;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+ .arriba {
+ 	width: 90%;
+ 	height: auto;
+ }
 }
